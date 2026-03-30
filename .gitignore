@@ -1,0 +1,6 @@
+source/*.srt
+source/*.vtt
+source/*.txt
+STREMIO_READY/*.srt
+STREMIO_READY/*.vtt
+STREMIO_READY/*.txt

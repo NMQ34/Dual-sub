@@ -14,7 +14,6 @@ Un script Python ultra-rapide pour transformer vos sous-titres anglais en **sous
    ```bash
    pip install deep-translator pysubs2
 
-
 🛠 Utilisation
 
     Placez vos fichiers .txt, .srt ou .vtt anglais dans le dossier /source.

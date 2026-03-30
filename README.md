@@ -3,8 +3,9 @@
 Un script Python ultra-rapide pour transformer vos sous-titres anglais en **sous-titres bilingues (Anglais/Français)** optimisés pour **Stremio**.
 
 ## ✨ Caractéristiques
-- **Vitesse Éclair** : Traduction par lots (batching) via Google Translate (via `deep-translator`).
+- **Vitesse Éclair** : Traduction par lots (batching) via Google Translate.
 - **Nettoyage Auto** : Supprime les pubs (OpenSubtitles), les balises WEBVTT et les métadonnées qui font planter Stremio.
+- **Organisation** : Gestion automatique des dossiers source et sortie.
 
 ## 🚀 Installation
 
@@ -26,12 +27,12 @@ Un script Python ultra-rapide pour transformer vos sous-titres anglais en **sous
 
 ⚙️ Structure du Projet
 
-    dual_sub.py : Le cœur du réacteur (Python).
+    dual_sub.py : Le script de traduction.
 
     GO.bat : Le lanceur Windows.
 
-    /source : Dossier d'entrée pour vos fichiers originaux.
+    /source : Dossier d'entrée.
 
-    /STREMIO_READY : Dossier de sortie pour les fichiers bilingues.
+    /STREMIO_READY : Dossier de sortie.
 
 Fait avec amour pour la communauté Stremio.
